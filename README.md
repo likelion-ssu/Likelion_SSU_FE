@@ -26,7 +26,7 @@
 
 ## 주차별 과제 안내 💻
 | <b> 주차 </b>| <b> 과제 내용 </b>|
-| :--- | :---: | :--- |
+| :--- | :---: |
 | <strong>week 1</strong> | <b>Flex 레이아웃과 Grid 레이아웃의 속성을 이용한 기초 페이지 제작</b><br> - Flex 레이아웃을 적용한 단일페이지(HTML 파일 1, CSS 파일 1)<br> - Grid 레이아웃을 적용한 단일페이지(HTML 파일 1, CSS 파일 1) |
 | <strong>week 2</strong> | |
 | <strong>week 3</strong> | |
