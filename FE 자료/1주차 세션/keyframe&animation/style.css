@@ -1,0 +1,44 @@
+/* body태그 기본 style reset */
+body {
+    margin: 0;
+    height: 2000px;
+}
+
+/* section 이미지 */
+section {
+    background: url(https://www.starbucks.co.kr/common/img/main/fav_prod_bg_new.jpg) fixed;
+    height: 800px;
+}
+
+/* 상품 이미지 */
+.itemPhoto {
+    position: absolute;
+    left: 1000px;
+    top: 200px;
+}
+
+/* PICK YOUR FAVORITE */
+h1 {
+    width: 250px;
+    font-size: 4em;
+    color: white;
+    font-family: sans-serif;
+
+    position: absolute;
+    left: 500px;
+    top: 150px;
+
+    animation: slide 2s ease-out;
+}
+
+/* animation keyframes */
+@keyframes slide {
+    from {
+        left: -100px;
+        opacity: 0;
+    }
+    to {
+        left: 500px;
+        opacity: 1;
+    }
+}
