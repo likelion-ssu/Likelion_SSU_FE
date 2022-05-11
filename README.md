@@ -12,6 +12,7 @@
         <td align="center"><a href="https://github.com/yoo-jimin127"><img src="https://avatars.githubusercontent.com/u/66112716?v=4" width="100px;" alt=""/><br /><sub><b>yoo-jimin127</b></sub></a></td>
         <td align="center"><a href="https://github.com/Jun99uu"><img src="https://avatars.githubusercontent.com/u/44965706?v=4" width="100px;" alt=""/><br /><sub><b>Jun99uu</b></sub></a></td>
         <td align="center"><a href="https://github.com/HwangSunBeom"><img src="https://avatars.githubusercontent.com/u/72551358?v=4" width="100px;" alt=""/><br /><sub><b>HwangSunBeom</b></sub></a></td>
+        <td align="center"><a href="https://github.com/Orca1110"><img src="https://avatars.githubusercontent.com/u/70579501?v=4" width="100px;" alt=""/><br /><sub><b>HwangSunBeom</b></sub></a></td>
    </tr>
 </table>
 
