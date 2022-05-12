@@ -12,6 +12,7 @@
         <td align="center"><a href="https://github.com/yoo-jimin127"><img src="https://avatars.githubusercontent.com/u/66112716?v=4" width="100px;" alt=""/><br /><sub><b>yoo-jimin127</b></sub></a></td>
         <td align="center"><a href="https://github.com/Jun99uu"><img src="https://avatars.githubusercontent.com/u/44965706?v=4" width="100px;" alt=""/><br /><sub><b>Jun99uu</b></sub></a></td>
         <td align="center"><a href="https://github.com/HwangSunBeom"><img src="https://avatars.githubusercontent.com/u/72551358?v=4" width="100px;" alt=""/><br /><sub><b>HwangSunBeom</b></sub></a></td>
+        <td align="center"><a href="https://github.com/Orca1110"><img src="https://avatars.githubusercontent.com/u/70579501?v=4" width="100px;" alt=""/><br /><sub><b>Orca1110</b></sub></a></td>
    </tr>
 </table>
 
@@ -28,7 +29,7 @@
 | <b> 주차 </b>| <b> 과제 내용 </b>|
 | :--- | :---: |
 | <strong>week 1</strong> | <b>Flex 레이아웃과 Grid 레이아웃의 속성을 이용한 기초 페이지 제작</b><br> - Flex 레이아웃을 적용한 단일페이지(HTML 파일 1, CSS 파일 1)<br> - Grid 레이아웃을 적용한 단일페이지(HTML 파일 1, CSS 파일 1) |
-| <strong>week 2</strong> | |
+| <strong>week 2</strong> | <b>Javascript 반복문 & 제어문 & 배열 관련 백준문제 풀이</b> |
 | <strong>week 3</strong> | |
 | <strong>week 4</strong> | |
 | <strong>week 5</strong> | |
@@ -38,3 +39,5 @@
 - [Flex layout 자료(속성값에 따른 변화 한눈에 보기)](https://beautifulcss.com/archives/2812)
 - [Grid layout 자료(Try it yourself 기능으로 바로 실행해보는 기능)](https://www.w3schools.com/css/css_grid.asp)
 - [Grid layout MDN 자료](https://developer.mozilla.org/ko/docs/Web/CSS/CSS_Grid_Layout/Basic_concepts_of_grid_layout)
+- [ECMA Script 문서](https://www.ecma-international.org/)
+- [Javascript MDN](https://developer.mozilla.org/ko/docs/Web/Javascript)

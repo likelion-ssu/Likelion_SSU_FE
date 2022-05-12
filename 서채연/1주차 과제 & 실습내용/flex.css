@@ -1,0 +1,59 @@
+.container {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    line-height: 150px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-end;
+}
+
+body {
+    margin: 10px;
+}
+
+.blue {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    color: white;
+    order: 2;
+    flex-grow: 1;
+}
+
+.purple {
+    width: 200px;
+    height: 200px;
+    background-color: purple;
+    color: white;
+    order: 4;
+    flex-grow: 2;
+}
+
+.green {
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    color: white;
+    order: 1;
+    flex-grow: 3;
+}
+
+.yellow {
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    color: white;
+    order: -1;
+    flex-grow: 4;
+}
+
+.orange {
+    width: 200px;
+    height: 200px;
+    background-color: orange;
+    color: white;
+    order: 0;
+    flex-grow: 5;
+}
