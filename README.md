@@ -30,9 +30,11 @@
 | :--- | :---: |
 | <strong>week 1</strong> | <b>Flex 레이아웃과 Grid 레이아웃의 속성을 이용한 기초 페이지 제작</b><br> - Flex 레이아웃을 적용한 단일페이지(HTML 파일 1, CSS 파일 1)<br> - Grid 레이아웃을 적용한 단일페이지(HTML 파일 1, CSS 파일 1) |
 | <strong>week 2</strong> | <b>Javascript 반복문 & 제어문 & 배열 관련 백준문제 풀이</b> |
-| <strong>week 3</strong> | |
+| <strong>week 3</strong> | <b>배열 관련 10가지 함수 & ES6 추가 기능 실습</b><br> [배열 관련 함수 참고 소스코드](https://github.com/likelion-ssu/Likelion_SSU_FE/blob/main/FE%20%EC%9E%90%EB%A3%8C/3%EC%A3%BC%EC%B0%A8%20%EC%84%B8%EC%85%98/%EC%8B%A4%EC%8A%B5%20%EC%86%8C%EC%8A%A4%EC%BD%94%EB%93%9C%20%26%20%EA%B3%BC%EC%A0%9C/array-after-api.js)<br> [ES6 추가 기능 소스코드](https://github.com/likelion-ssu/Likelion_SSU_FE/blob/main/FE%20%EC%9E%90%EB%A3%8C/3%EC%A3%BC%EC%B0%A8%20%EC%84%B8%EC%85%98/%EC%8B%A4%EC%8A%B5%20%EC%86%8C%EC%8A%A4%EC%BD%94%EB%93%9C%20%26%20%EA%B3%BC%EC%A0%9C/es6.js) |
 | <strong>week 4</strong> | |
 | <strong>week 5</strong> | |
+
+
 
 ## 좋은 자료 아카이빙 🗨 
 > 공유하고싶은 자료가 있다면 자유롭게 추가해주세요!
