@@ -1,11 +1,11 @@
 // Q1. 아래 배열을 string으로 변환해 출력해주세요.
 {
-    const fruits = ['apple', 'banana', 'orange'];
+  const fruits = ["apple", "banana", "orange"];
 }
 
 // Q2. 아래 String을 배열로 변환해 출력해주세요.
 {
-  const fruits = 'apple, kiwi, banana, cherry';
+  const fruits = "apple, kiwi, banana, cherry";
 }
 
 // Q3. 배열의 순서를 거꾸로 만들어 출력해주세요. : [5, 4, 3, 2, 1]
@@ -31,11 +31,11 @@ class Student {
   }
 }
 const students = [
-  new Student('A', 29, true, 45),
-  new Student('B', 28, false, 80),
-  new Student('C', 30, true, 90),
-  new Student('D', 40, false, 66),
-  new Student('E', 18, true, 88),
+  new Student("A", 29, true, 45),
+  new Student("B", 28, false, 80),
+  new Student("C", 30, true, 90),
+  new Student("D", 40, false, 66),
+  new Student("E", 18, true, 88),
 ];
 
 // Q5. score가 90점인 학생을 찾아 출력해주세요.
