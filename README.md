@@ -15,7 +15,9 @@
         <td align="center"><a href="https://github.com/Orca1110"><img src="https://avatars.githubusercontent.com/u/70579501?v=4" width="100px;" alt=""/><br /><sub><b>Orca1110</b></sub></a></td>
    </tr>
 </table>
+
 ## 주차별 세션 내용 🔥
+
 | <b> 주차 </b>| <b> 주제 </b> | <b> 활동 내용 </b>|
 | :--- | :---: | :--- |
 | <strong>week 1</strong> | CSS | CSS 심화 & Bootstrap 사용법 학습 |
