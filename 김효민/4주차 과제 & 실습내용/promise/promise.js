@@ -38,14 +38,29 @@ class UserStorage {
 const member = new UserStorage();
 
 //2.아이디와 pw 받기
-const $id = prompt("아이디를 입력해주세요");
-const $pw = prompt("비밀번호 입력해주세요");
+
+const $id = document.getElementById("id");
+const $pw = document.getElementById("password");
+const $submit = document.getElementById("submit");
+const $title = document.getElementById("title");
+$submit.addEventListener("click", login);
+
+function login() {
+    member
+        .loginUser($id.value, $pw.value)
+        .then((user) => member.getRoles(user))
+        .then((result) => {
+            $title.innerText = `Hello ${result.name} 🖐`;
+            $id.value = "";
+            $pw.value = "";
+        })
+        .catch((e) => {
+            console.log(e);
+            $title.innerText = `Retry Login`;
+            $id.value = "";
+            $pw.value = "";
+        });
+}
 
 //3. 로그인 -> 직책찾기
 //promise 사용
-
-member
-    .loginUser($id, $pw)
-    .then((user) => member.getRoles(user))
-    .then((result) => alert(`${result.name}'s role is ${result.role}`))
-    .catch(console.log);
