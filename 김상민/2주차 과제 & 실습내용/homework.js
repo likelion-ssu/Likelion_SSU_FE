@@ -92,4 +92,3 @@ console.log(`${Math.min(...numArr)} ${Math.max(...numArr)}`)
 
 Math.min, Math.max에 number array의 value를 넣어야해서 이렇게 했더니 틀리고 그냥 arr의 value를 넣으니까 맞았음... 이유를 모르겠어요.. ?_? */
 
-
