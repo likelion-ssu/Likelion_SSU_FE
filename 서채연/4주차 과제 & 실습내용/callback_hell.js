@@ -1,61 +1,42 @@
 // promise 없이 구현
 //회원 정보 -> 로그인(id, password) & 이 사람의 직책(role)
 
-class user {
-    // 로그인 함수 - Producer
-    loginUser(id, password) {
-        return new Promise((resolve, reject) => {
-            setTimeout(() => {
-                if(
-                    (id === 'chaeyeon' && password === '1234') ||
-                    (id === 'front' && password === 'likelion')
-                ) {
-                    resolve(id);
-                } else {
-                    reject(new Error('you are not our user'));
-                }
-            }, 1000);
-        })
+class UserStorage {
+    loginUser(id, password, login_success, login_error) {
+        setTimeout(() => {
+            if (
+                (id === 'chaeyeon' && password === '1234') ||
+                (id === 'front' && password === 'likelion')
+            ) {
+                login_success(id);
+            } else {
+                login_error(new Error('you are not our user'));
+            }
+        }, 1000);
     }
-    
-    // 직책 검색 - Producer
-    getRoles(user) {
-        return new Promise((resolve, reject) => {
-            setTimeout(() => {
-                if(user === 'chaeyeon') {
-                    resolve({name: 'chaeyeon', role: 'developer'})
-                } else if (user === 'front') {
-                    resolve({name: 'front', role: 'god'})
-                } else {
-                    reject(new Error('너는 직책이 없다'))
-                }
-            }, 2000);
-        })
+
+    getRoles(user, role_success, role_error) {
+        setTimeout(() => {
+            if (user === 'chaeyeon') {
+                role_success({name: 'chaeyeon', role: 'developer'});
+            } else if (user === 'front') {
+                role_success({name: 'front', role: 'god'});
+            } else {
+                role_error(new Error('너는 직책이 없다'));
+            }
+        }, 1000);
     }
 }
 
-// user 생성
-const member = new user();
+// 1. user 생성
+const member = new UserStorage();
 
+// 2. id와 password 입력받기
+const input_id = prompt("id를 입력해주세요");
+const input_pw = prompt("패스워드를 입력해주세요");
 
-// id와 pw 입력받기
-const input_id = prompt('id를 입력해주세요');
-const input_pw = prompt('비밀번호를 입력해주세요');
-
-
-// 로그인 -> 직책 찾기
-member.loginUser(input_id, input_pw)
-
-// - 로그인 -> 직책 확인
-    .then(member.getRoles)
-
-// - 이름 & 직책 출력
-    .then((user) => alert(`${user.name}'s role is ${user.role}`))
-
-    // 에러 처리
-    .catch(console.log)
-
-/*member.loginUser(
+// 3. 로그인하기
+member.loginUser(
     input_id,
     input_pw,
     (login_success_id) => { // login_success 넣을 콜백 함수
@@ -74,4 +55,3 @@ member.loginUser(input_id, input_pw)
         console.log(user_error);
     }
 )
-*/
