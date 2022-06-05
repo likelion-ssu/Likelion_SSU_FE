@@ -1,0 +1,1 @@
+let personName: string = "sangmin";
