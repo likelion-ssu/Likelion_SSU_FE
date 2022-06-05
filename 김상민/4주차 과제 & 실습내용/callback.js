@@ -41,14 +41,7 @@ const input_id = prompt("아이디를 입력해주세요");
 const input_pw = prompt("비밀번호를 입력해주세요");
 
 // 3. 로그인 -> 직책 찾기
-member
-  .loginUser(input_id, input_pw)
-  // 3-1 로그인 -> 직책 확인
-  .then(member.getRoles)
-  // 3-2 이름 & 직책 출력
-  .then((user) => alert(`${id.name}'s role is ${id.role}`))
-  // 3-3 에러 처리
-  .catch(console.log);
+
 // member.loginUser(
 //   input_id,
 //   input_pw,
@@ -68,16 +61,3 @@ member
 //     console.log(user_error);
 //   }
 // );
-
-{
-  const promise = new Promise((resolve, reject) => {});
-
-  promise
-    .then((value) => {
-      console.log(value);
-    })
-    .catch((error) => {
-      console.log(error);
-    })
-    .finally(console.log("finally is executed!"));
-}
