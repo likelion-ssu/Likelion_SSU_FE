@@ -23,8 +23,7 @@ function addToDo(event) {
 function addTask(value){
     let ul = document.querySelector('ul');
     let li = document.createElement('li');
-    li.innerHTML = `<span class="delete">X</span> 
-    <input type="checkbox"> <label> ${value} </label>`;
+    li.innerHTML = `<span class="delete">X</span><input type="checkbox" /><label>${value}</label>`;
     ul.appendChild(li); // 자식 Element 추가
     document.querySelector('.todolist').style.display = "block";
 }

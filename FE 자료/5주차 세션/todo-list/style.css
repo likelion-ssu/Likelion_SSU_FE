@@ -1,0 +1,99 @@
+/* TODO List가 담길 전체 박스 */
+.container{
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    background-color: aliceblue;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px gray;
+    padding: 30px 30px;
+}
+    
+/* TODO List 이름 */
+h1{
+    text-align: center;
+    color: rgb(1, 77, 143);
+    text-shadow: 1px 1px 3px gray;
+}
+
+/* type="text"를 가진 input 태그 */
+input[type="text"]{
+    width: 385px;
+    height: 30px;
+    outline: 0;
+    border: none;
+    font-size: 1.5em;
+    background: white;
+    margin-right: 10px;
+    padding: 5px 0px 5px 10px;
+}
+
+/* ADD 버튼 */
+button{
+    width: 85px;
+    height: 40px;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px gray;
+    color: white;
+    background-color: rgb(163, 193, 219);
+    border-radius: 4px;
+    outline: 0;
+    border: none;
+}
+
+/* TODO List item들이 담길 박스 */
+.todolist{
+    background-color: white;
+    margin-top: 20px;
+    padding: 10px 40px 10px 0px;
+}
+
+/* TODO List item - 전체 list*/
+ul{
+    list-style: none;
+}
+
+/* TODO List item - 각 list*/
+li{
+    border-bottom: 1px solid lightgrey;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    font-size: 1.3em;
+}
+
+/* DELETE ALL 선택 */
+#clear{
+    float: right;
+    text-align: right;
+    color: rgb(0, 101, 189);
+    font-weight: bold;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+/* 생성될 TO DO item 삭제 버튼 */
+.delete{
+    background-color: rgb(39, 139, 226);
+    text-align: center;
+    width: 15px;
+    height: 15px;
+    padding: 0px 4px;
+    margin-right: 10px;
+    border-radius: 50%;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#quote {
+    /* font-family: 'Poor Story', cursive; */
+    text-align: center;
+    font-size: 17px;
+    font-weight: 600;
+    color: rgb(0, 101, 189);
+    margin-top: 20px;
+}
