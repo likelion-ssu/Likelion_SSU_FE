@@ -78,8 +78,8 @@ li {
 }
 
 .delete {
-  position: absolute;
-  right: 420px;
+  position: relative;
+  left: 265px;
 }
 
 #quotes {
