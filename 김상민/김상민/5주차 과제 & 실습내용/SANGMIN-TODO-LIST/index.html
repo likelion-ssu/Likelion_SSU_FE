@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Karla:wght@300;600&display=swap");
+    </style>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>To Dos!</h1>
+      <form class="todo_form">
+        <input class="todo_input" type="text" placeholder="To Do Item" />
+        <button type="submit">ADD</button>
+      </form>
+      <div class="todolist">
+        <ul></ul>
+        <a id="clear">DELETE ALL</a>
+      </div>
+      <div id="quotes">
+        <div id="quote"></div>
+        <div id="author"></div>
+      </div>
+    </div>
+    <script src="quotes.js"></script>
+    <script src="todo.js"></script>
+  </body>
+</html>
