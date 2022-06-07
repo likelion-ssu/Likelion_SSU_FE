@@ -32,8 +32,8 @@
 | <strong>week 1</strong> | <b>Flex 레이아웃과 Grid 레이아웃의 속성을 이용한 기초 페이지 제작</b><br> - Flex 레이아웃을 적용한 단일페이지(HTML 파일 1, CSS 파일 1)<br> - Grid 레이아웃을 적용한 단일페이지(HTML 파일 1, CSS 파일 1) |
 | <strong>week 2</strong> | <b>Javascript 반복문 & 제어문 & 배열 관련 백준문제 풀이</b> |
 | <strong>week 3</strong> | <b>배열 관련 10가지 함수 & ES6 추가 기능 실습</b><br> [배열 관련 함수 참고 소스코드](https://github.com/likelion-ssu/Likelion_SSU_FE/blob/main/FE%20%EC%9E%90%EB%A3%8C/3%EC%A3%BC%EC%B0%A8%20%EC%84%B8%EC%85%98/%EC%8B%A4%EC%8A%B5%20%EC%86%8C%EC%8A%A4%EC%BD%94%EB%93%9C%20%26%20%EA%B3%BC%EC%A0%9C/array-after-api.js)<br> [ES6 추가 기능 소스코드](https://github.com/likelion-ssu/Likelion_SSU_FE/blob/main/FE%20%EC%9E%90%EB%A3%8C/3%EC%A3%BC%EC%B0%A8%20%EC%84%B8%EC%85%98/%EC%8B%A4%EC%8A%B5%20%EC%86%8C%EC%8A%A4%EC%BD%94%EB%93%9C%20%26%20%EA%B3%BC%EC%A0%9C/es6.js) |
-| <strong>week 4</strong> | <b>비동기 처리 : callback & promise & async/await</b><br> - callback hell을 promise로 변환 <br> - async & await  |
-| <strong>week 5</strong> | <b>DOM과 Event & Typescript basic</b><br> - 요소 취득을 통한 이벤트 리스너 구현 <br> - TO DO List 구현 <br> - Typescript 기본 문법 연습 |
+| <strong>week 4</strong> | |
+| <strong>week 5</strong> | |
 
 
 
