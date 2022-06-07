@@ -1,0 +1,58 @@
+<!-- innerHTML : 문자열로 자식 노드 만들 수 있는 기능 제공 -->
+<span>innerHTML</span>
+<ul id="target">
+    <li>HTML</li>
+    <li>CSS</li>
+</ul>
+<input type="button" onclick="get_innerHTML();" value="get" />
+<input type="button" onclick="set_innerHTML();" value="set" />
+<script>
+    function get_innerHTML(){
+        var target = document.getElementById('target');
+        alert(target.innerHTML);
+    }
+    function set_innerHTML(){
+        var target = document.getElementById('target');
+        target.innerHTML = "<li>JavaScript Core</li><li>BOM</li><li>DOM</li>";
+    }
+</script>
+<br><br>
+
+<!-- outerHTML : 선택한 엘리먼트 포함해 처리 -->
+<span>outerHTML</span>
+<ul id="target2">
+    <li>HTML</li>
+    <li>CSS</li>
+</ul>
+<input type="button" onclick="get_outerHTML();" value="get" />
+<input type="button" onclick="set_outerHTML();" value="set" />
+<script>
+    function get_outerHTML(){
+        var target2 = document.getElementById('target2');
+        alert(target2.outerHTML);
+    }
+    function set_outerHTML(){
+        var target2 = document.getElementById('target2');
+        target2.outerHTML = "<ol><li>JavaScript Core</li><li>BOM</li><li>DOM</li></ol>";
+    }
+</script>
+<br><br>
+
+<!-- innerText, outerText : HTML 코드를 제외한 문자열 리턴(!== innerHTML & outerHTML) / 값 변경 시 HTML 코드 그대로 추가 -->
+<span>innerText, outerText</span>
+<ul id="target3">
+    <li>HTML</li>
+    <li>CSS</li>
+</ul>
+<input type="button" onclick="get_Text();" value="get" />
+<input type="button" onclick="set_Text();" value="set" />
+<script>
+    function get_Text(){
+        var target3 = document.getElementById('target3');
+        alert(target3.innerText);
+    }
+    function set_Text(){
+        var target3 = document.getElementById('target3');
+        target3.innerText = "<li>JavaScript Core</li><li>BOM</li><li>DOM</li>";
+    }
+</script>

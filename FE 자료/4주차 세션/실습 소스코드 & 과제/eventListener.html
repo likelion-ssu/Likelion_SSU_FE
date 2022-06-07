@@ -1,0 +1,89 @@
+<!-- ========= 1. 비효율적인 코드로 이벤트 핸들러를 만들어보자! ========== -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Event - case 1</title>
+</head>
+<body>
+    <div class="alert-box" id="alert">
+        <p id="title">Alert 박스</p>
+        <button onClick="openAlert('none')"> X </button>
+    </div>
+
+    <button onClick="openBtn1()">Button 1</button>
+    <button onClick="openBtn2()">Button 2</button>
+
+    <script>
+        function openBtn1() {
+            document.getElementById('title').innerHTML = '아이디를 입력해주세요.';
+            document.getElementById('alert').style.display = 'block';
+        }
+
+        function openBtn2() {
+            document.getElementById('title').innerHTML = "비밀번호를 입력해주세요.";
+            document.getElementById('alert').style.display = 'block';
+        }
+
+        function openAlert(display_prop) {
+            document.getElementById('alert').style.display = display_prop;
+        }
+    </script>
+</body>
+</html>
+
+<!-- =========== 2. 파라미터 사용을 통해 이벤트 핸들러 함수를 간소화 시켜보자! ========== -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Event - case 2</title>
+</head>
+<body>
+    <div class="alert-box" id="alert">
+        <p id="title">Alert 박스</p>
+        <button onClick="openAlert('none')"> X </button>
+    </div>
+
+    <button onClick="openBtn('아이디를 입력해주세요.')">Button 1</button>
+    <button onClick="openBtn('비밀번호를 입력해주세요.')">Button 2</button>
+
+    <script>
+        function openBtn(text) {
+            document.getElementById('title').innerHTML = text;
+            document.getElementById('alert').style.display = 'block';
+        }
+
+        function openAlert(display_prop) {
+            document.getElementById('alert').style.display = display_prop;
+        }
+    </script>
+</body>
+</html>
+
+
+<!-- =========== 3. 이벤트 리스너를 사용해보자! ========== -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Event - case 3</title>
+</head>
+<body>
+    <div class="alert-box" id="alert">
+        <p id="title">Alert 박스</p>
+        <button id="closeBtn"> X </button>
+    </div>
+
+    <button onClick="openBtn('아이디를 입력해주세요.')">Button 1</button>
+    <button onClick="openBtn('비밀번호를 입력해주세요.')">Button 2</button>
+
+    <script>
+        function openBtn(text) {
+            document.getElementById('title').innerHTML = text;
+            document.getElementById('alert').style.display = 'block';
+        }
+
+        document.getElementById('closeBtn').addEventListener('click', function() {
+            document.getElementById('alert').style.display = 'none';
+        })
+    </script>
+</body>
+</html>
