@@ -60,6 +60,6 @@ function checkToDo(event) {
   }
   // 체크 박스 안 눌린 경우
   else {
-    todo.style.color = "#dfe6e9";
+    todo.style.textDecorationLine = "";
   }
 }
