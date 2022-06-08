@@ -1,0 +1,14 @@
+button {
+    width: auto;
+    height: auto;
+    padding: 1rem;
+    border: 2px solid skyblue;
+    background-color: white;
+    color: skyblue;
+    border-radius: 1rem;
+}
+button:hover {
+    background-color: skyblue;
+    border: 0;
+    color: white;
+}

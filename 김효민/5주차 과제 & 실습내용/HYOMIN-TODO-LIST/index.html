@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css"></link>
+        <title>Todo-List</title>
+    </head>
+    <body>
+        <div class ="full-screen">
+            <div class="progress-container">
+                <h1>Task</h1>
+                <p class="count-text" id="task-count">0</p>
+                <p class="count-text"  >/</p>
+                <p class="count-text" id="total-count">0</p>
+                <div class="timer">
+                    <p id="clock">⏰</p>
+                    <p id="time-attack"> TIME ATTACK</p>
+                    <p id="remainTime">0</p>
+                </div>
+             
+            </div>
+            <div class="container">
+              <div class ="wrapper">
+                <form>
+                    <input class="edittext" type="text" placeholder = "오늘의 할 일"></input>
+                    <button class="btn" type="submit">ADD</button>
+                </form>        
+                <div class="todolist">
+                    <ul></ul>
+            
+                </div>
+            </div>    
+        </div>
+        <a id="clear" >DELETE ALL</a>
+        </div>
+    </body>
+    <script src="main.js"></script>
+    <script src="timer.js"></script>
+</html>
