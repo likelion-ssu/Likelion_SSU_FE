@@ -1,0 +1,84 @@
+.container {
+    padding: 30px 100px;
+    height: 800px;
+    width: 700px;
+    background-color: 	#faf0e6;
+    margin: 30px auto;
+    border-radius: 8%;
+    border: groove 3px 	#fa8072;
+    box-shadow: 5px 5px 30px #a0522d;
+}
+
+h1 {
+    text-align: center;
+    font-size: 70px;
+    font-family: 'Tiro Devanagari Hindi', serif;
+    color: #ff7f50;
+    text-shadow:3px 3px 1px #a0522d;
+}
+
+form {
+    text-align: center
+}
+
+ul {
+    padding: 1px 150px;
+    font-size: 30px;
+    color: #c35e3a;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    list-style-type: square;
+}
+
+input {
+    padding: 10px 10px;
+    height: 30px;
+    margin: 1px 20px;
+    background-color: #fffafa;
+    border: groove 3px 	#ffa07a;
+    border-radius: 20px;
+}
+
+button {
+    background-color: #ff7f50;
+    border: groove 3px 	#ffa07a;
+    border-radius: 20px;
+    width: 80px;
+    height: 30px;
+    font-size: 20px;
+    color: #fffafa;
+    text-shadow: 2px 2px 1px #a0522d;
+    box-shadow: 2px 2px 1px #a0522d;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 800;
+}
+
+input::placeholder {
+    font-size: 28px;
+}
+
+#clear {
+    margin-left: 600px;
+    padding: 8px;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Nunito', sans-serif;
+    background-color: #ff7f50;
+    color: #fffafa;
+    text-shadow: 2px 2px 1px #a0522d;
+    box-shadow: 2px 2px 1px #a0522d;
+    border-radius: 8px;
+}
+
+.quotes {
+    margin-top: 50px;
+    font-size: 23px;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    font-style: italic;
+    color: #715c52;
+}
+
+#author {
+    margin-top: 10px;
+}
