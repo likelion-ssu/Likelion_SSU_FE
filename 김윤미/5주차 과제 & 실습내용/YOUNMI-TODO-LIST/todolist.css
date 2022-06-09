@@ -1,0 +1,16 @@
+body{
+    padding:10px;
+    align-items: center;
+}
+.container{
+    background-color:antiquewhite;
+    border-radius: 10px 10px 10px 10px;
+    width: 400px;
+    height: 200px;
+    padding: 10px;
+    margin:0 auto;
+}
+#clear{
+    font-size:10px;
+    text-align: right;
+}
